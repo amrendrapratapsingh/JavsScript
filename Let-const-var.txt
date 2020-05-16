@@ -1,0 +1,55 @@
+// let and const and var
+
+// var a = "amrendra";
+// console.log(a);
+// var a = "React"
+// console.log(a);
+// var b;
+// b = 'Vue';
+// console.log(b);
+
+// letter , number , _ , $
+
+// can not start  with number
+
+
+// multi word vars
+
+// var ftrstName = 'john doe'; // camel case
+
+// var first_name = 'Yuvi'; /// UnderScore
+
+// var FirstName = 'Pratap';
+
+
+
+// CONST
+
+// const name = 'angular';
+//  console.log(name);
+// // can't reassign
+// name = 'React'
+
+// have to assign the value
+//const name;  /// missing intializer in const declarations
+
+// // array and object
+
+// const person = {
+
+//     name:'yuvi',
+//     age:24
+// }
+
+
+// person.name =  'JavaScript';
+// person.age  = 22;
+// console.log(person.age);
+// person = {name:'yuvi',age:22,skill:'JS'};  // can't do that
+// console.log(person);
+
+const personData = [1,2,3,4,5];
+
+personData.push(6);
+console.log(personData);
+personData = [1,2,3,4,5,6];
