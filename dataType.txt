@@ -1,0 +1,15 @@
+// Primitve Data Types
+
+// string
+
+const name = 'Web developer'
+
+// string
+// console.log(typeof(name));
+
+
+// number
+
+const num = 45;
+
+console.log(typeof(num));
