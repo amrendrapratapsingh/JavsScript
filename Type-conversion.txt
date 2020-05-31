@@ -1,0 +1,49 @@
+let val;
+
+// number to string
+
+val = String(555);
+val = String(4+4)
+
+// bool to string
+
+val = String(true)
+
+// date to string
+
+val = String(new Date());
+
+// Array to string
+
+
+val = String([1,2,3,])
+
+// to string
+
+val = (5).toString();
+
+// string to Number
+
+val = Number('5');
+val  = Number(true);
+val = Number(false);
+val = Number('Hello');
+val = Number([1,2,3]);
+
+
+val = parseInt('100');
+val = parseFloat('100.23');
+
+
+// Output
+// console.log(val);
+// console.log(typeof(val));
+// //console.log(val.length); // length is the property of the string
+// console.log(val.toFixed(2))
+
+
+const val1 = (5).toString();
+const val2 = 6;
+const sum = Number(val1 + val2);
+console.log(sum);
+console.log(typeof(sum));
